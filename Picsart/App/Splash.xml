@@ -1,0 +1,35 @@
+<Element
+    backgroundColor="#01fdff"
+    backgroundSize="Cover"
+    orientation="Vertical">
+
+    <Element
+        element="mShape"
+        height="80%"
+        aspectRatio="1"
+        positionType="Absolute"
+        shapeType="Circle"
+        backgroundColor="#ff0aef">
+    </Element>
+
+    <Element
+        element="mShape2"
+        height="50%"
+        aspectRatio="1"
+        positionType="Absolute"
+        shapeType="Circle"
+        backgroundColor="glm::vec4(255)">
+    </Element>
+
+    <Element
+        element="mLogo"
+        width="250dp"
+        aspectRatio="1"
+        backgroundImage="Picsart/logo1.png">
+    </Element>
+
+   <Element
+    element="mTextCont">
+   </Element>
+
+</Element>

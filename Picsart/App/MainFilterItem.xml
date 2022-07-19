@@ -1,0 +1,44 @@
+<Element
+    aspectRatio="1"
+    height="100%"
+    borderRadius='e3::Dim("10dp")'
+    backgroundSize="Cover"
+    marginRight="4dp"
+    marginLeft="4dp"
+    backgroundColor="all: 255"
+    overflow="Hidden">
+
+    <ImageCanvas
+        element="mCanvas"
+        width="100%"
+        height="100%">
+    </ImageCanvas>
+
+    <FontIcon
+        element="mCheck"
+        opacity="0"
+        width="40dp"
+        aspectRatio="1"
+        font="_s(Picsart/icons.ttf)"
+        charcode="E800"
+        color="all: 255"
+        positionType="Absolute">
+    </FontIcon>
+
+    <Element
+        element="mTitleCont"
+        width="100%"
+        padding="2dp"
+        positionType="Absolute"
+        bottom="0"
+        backgroundColor="all: 255"
+        >
+        <Text
+            element="mTitle"
+            text="Hudson"
+            fontSize="14dp"
+            textColor="glm::vec4(255)">
+        </Text>
+    </Element>
+
+</Element>

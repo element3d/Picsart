@@ -1,0 +1,75 @@
+<Element
+    orientation="Vertical"
+    backgroundColor="glm::vec4(0, 0, 0, 255)">
+
+    <Element
+        element="mIconsCont"
+        width="100%"
+        alignItemsHor="SpaceBetween"
+        padding="10dp"
+        backgroundColor="glm::vec4(50)">
+        <FontIcon
+            font="_s(Picsart/icons.ttf)"
+            width="14dp"
+            aspectRatio="1"
+            color="all: 255"
+            charcode="e809"
+            marginLeft="10dp">
+        </FontIcon>
+        <FontIcon
+            font="_s(Picsart/icons.ttf)"
+            width="18dp"
+            aspectRatio="1"
+            color="all: 255"
+            charcode="e800"
+            marginRight="10dp">
+        </FontIcon>
+    </Element>
+    <Element
+        element="mImagesCont"
+        width="100%"
+        height="100dp"
+        backgroundColor="glm::vec4(50)"
+        overflow="Scroll">
+    </Element>
+
+    <Element
+        element="mCanvasCont"
+        width="100%"
+        height="100%"
+        margin="20dp"
+        overflow="Hidden"
+        scaling="Shrink">
+        <ImageCanvas
+            element="mCanvas">
+        </ImageCanvas>
+    </Element>
+    <Element
+        element="mFilters"
+        width="100%"
+        height="100dp"
+        marginBottom="20dp"
+        backgroundColor="glm::vec4(50)"
+        overflow="Scroll">
+        <!-- <ImageCanvas  
+            marginRight="10dp"
+            width="70dp"
+            height="96%">
+        </ImageCanvas>
+        <ImageCanvas  width="70dp"
+            height="96%"
+             marginRight="10dp">
+        </ImageCanvas>
+        <ImageCanvas  width="70dp"
+            height="96%"
+             marginRight="10dp">
+        </ImageCanvas>
+        <ImageCanvas  width="70dp"
+            height="96%">
+        </ImageCanvas> -->
+        <!-- <MainFilterItem></MainFilterItem>
+        <MainFilterItem></MainFilterItem>
+        <MainFilterItem></MainFilterItem> -->
+    </Element>
+
+</Element>
